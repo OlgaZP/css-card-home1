@@ -21,7 +21,9 @@ body {
 
 .cardContainer {
     width: var(--card-width);
-    height: calc(var(--card-width) * 1.1);
+    /* height: calc(var(--card-width) * 1.1); */
+    min-width: calc(var(--card-width) * 0.8);
+    max-width: calc(var(--card-width) * 1.2);
     margin: 20vh auto 0;
     background-color: white;
     border-radius: 3%;
